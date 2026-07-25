@@ -1,0 +1,26 @@
+{
+  "name": "@workspace/minecraft-bot",
+  "version": "1.0.0",
+  "description": "24/7 Minecraft bot powered by Mineflayer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.23.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-collectblock": "^1.5.0",
+    "mineflayer-pvp": "^1.3.2",
+    "mineflayer-auto-eat": "^5.0.3",
+    "mineflayer-armor-manager": "^1.3.2",
+    "minecraft-data": "^3.64.0",
+    "vec3": "^0.1.10",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "prismarine-item": "^1.15.0",
+    "prismarine-viewer": "^1.28.0"
+  }
+}
